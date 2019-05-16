@@ -1,12 +1,16 @@
-function initialize(){
+var int;
+var call = functionCall;
+var cookie = document.getElementByID('bigCookie');
   
-  
-  var int;
-  
-  if(int == true) {
-    return console.log('initialized fail');
-  } else if(int == false) {
-    return console.log('initialized success');
-  }
-  
+if (cookie) {
+  int == true;
+} else {
+  int == false; 
 }
+if(int == true) {
+  console.log('initialize fail');
+} else if(int == false) {
+  console.log('initialize success');
+}
+
+cookie.click();
